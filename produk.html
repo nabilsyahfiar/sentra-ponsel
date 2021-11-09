@@ -63,7 +63,7 @@
     <!-- akhir navbar -->
 
     <!-- header-->
-    <header class="py-5" style="background-color: #f3f4f5">
+    <!-- <header class="py-5" style="background-color: #f3f4f5">
       <div class="container px-4 px-lg-5 my-5">
         <div class="text-center text-white">
           <h1 class="display-6 fw-bolder text-dark">Semua Produk</h1>
@@ -72,12 +72,59 @@
           </p>
         </div>
       </div>
-    </header>
+    </header> -->
     <!-- akhir header -->
+
+    <!-- slider -->
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/img/slider/slider-1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/img/slider/slider-2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/img/slider/slider-3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#productCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#productCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- akhir slider -->
 
     <!-- list produk -->
     <section class="py-5">
       <div class="container">
+        <h1 class="display-6 fw-bolder text-dark">Semua Produk</h1>
         <!-- row 1 -->
         <div class="row row-cols-5 py-5 justify-content-center">
           <div class="col">
@@ -439,6 +486,6 @@
     </footer>
 
     <!-- JS -->
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
